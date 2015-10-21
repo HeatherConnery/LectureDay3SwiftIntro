@@ -14,6 +14,10 @@
 		B6E7EBB91BD7D76C002D4366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E7EBB71BD7D76C002D4366 /* LaunchScreen.storyboard */; };
 		B6E7EBC41BD7D76C002D4366 /* SwiftFundamentalsDay3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7EBC31BD7D76C002D4366 /* SwiftFundamentalsDay3Tests.swift */; };
 		B6E7EBCF1BD7D76C002D4366 /* SwiftFundamentalsDay3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7EBCE1BD7D76C002D4366 /* SwiftFundamentalsDay3UITests.swift */; };
+		B6E7EBDD1BD7DAE8002D4366 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7EBDC1BD7DAE8002D4366 /* Student.swift */; settings = {ASSET_TAGS = (); }; };
+		B6E7EBDF1BD7EA82002D4366 /* NewStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7EBDE1BD7EA82002D4366 /* NewStudent.swift */; settings = {ASSET_TAGS = (); }; };
+		B6E7EBE11BD7EBB2002D4366 /* MyStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7EBE01BD7EBB2002D4366 /* MyStruct.swift */; settings = {ASSET_TAGS = (); }; };
+		B6E7EBE31BD7ECA4002D4366 /* MyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E7EBE21BD7ECA4002D4366 /* MyProtocol.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B6E7EBCA1BD7D76C002D4366 /* SwiftFundamentalsDay3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFundamentalsDay3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E7EBCE1BD7D76C002D4366 /* SwiftFundamentalsDay3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFundamentalsDay3UITests.swift; sourceTree = "<group>"; };
 		B6E7EBD01BD7D76C002D4366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E7EBDC1BD7DAE8002D4366 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		B6E7EBDE1BD7EA82002D4366 /* NewStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewStudent.swift; sourceTree = "<group>"; };
+		B6E7EBE01BD7EBB2002D4366 /* MyStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyStruct.swift; sourceTree = "<group>"; };
+		B6E7EBE21BD7ECA4002D4366 /* MyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				B6E7EBAE1BD7D76C002D4366 /* AppDelegate.swift */,
 				B6E7EBB01BD7D76C002D4366 /* ViewController.swift */,
+				B6E7EBDC1BD7DAE8002D4366 /* Student.swift */,
 				B6E7EBB21BD7D76C002D4366 /* Main.storyboard */,
 				B6E7EBB51BD7D76C002D4366 /* Assets.xcassets */,
 				B6E7EBB71BD7D76C002D4366 /* LaunchScreen.storyboard */,
 				B6E7EBBA1BD7D76C002D4366 /* Info.plist */,
+				B6E7EBDE1BD7EA82002D4366 /* NewStudent.swift */,
+				B6E7EBE01BD7EBB2002D4366 /* MyStruct.swift */,
+				B6E7EBE21BD7ECA4002D4366 /* MyProtocol.swift */,
 			);
 			path = SwiftFundamentalsDay3;
 			sourceTree = "<group>";
@@ -255,8 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E7EBDF1BD7EA82002D4366 /* NewStudent.swift in Sources */,
 				B6E7EBB11BD7D76C002D4366 /* ViewController.swift in Sources */,
+				B6E7EBDD1BD7DAE8002D4366 /* Student.swift in Sources */,
+				B6E7EBE31BD7ECA4002D4366 /* MyProtocol.swift in Sources */,
 				B6E7EBAF1BD7D76C002D4366 /* AppDelegate.swift in Sources */,
+				B6E7EBE11BD7EBB2002D4366 /* MyStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
